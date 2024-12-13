@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Parkinsans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Pacifico&family=Parkinsans:wght@300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+        background: whitesmoke url(../imgs/background.png) fixed;
+    }
+header img{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    max-width: 200px;
+    position: absolute;
+    left: 10px;
+}
+.bgpic{
+    position: absolute;
+    left: 900px;
+    bottom: 0px;
+}
+.logo{
+    color: rgb(214, 93, 134);
+    size: 200px;
+    margin-left: 100px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+    margin-right: 100px;
+    padding: 0;
+    text-align: right ;
+    word-spacing: 25px;
+}
+li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    font-family: "Parkinsans", sans-serif;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px rgb(88, 87, 87);
+    transition: all 0.3s ease;
+}
+.active{
+    border-bottom: 2px solid rgb(214, 93, 134);
+    font-weight: bold;
+}
+ul li a:hover{
+    border-bottom: 2px solid rgb(214, 93, 134);
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.content h1{
+    margin: 0;
+    font-size: 100px;
+    font-family: "Sour Gummy", sans-serif;
+    position: relative;
+    left: 200px;
+}
+.main{
+    top: 200px;
+    color: rgb(214, 93, 134);
+}
+.adopt{
+    text-transform: uppercase;
+    color: rgb(46, 45, 45);
+    font-size: 100px;
+}
+div .lorem{
+    display: inline;
+    margin: 0;
+    font-size: 17px;
+    font-family: "Sour Gummy", sans-serif;
+    position: relative;
+    left: 200px;
+    white-space: pre;
+    text-align: left;
+}
+.button{
+    margin-top: 30px;
+    margin-left: 300px;
+    background-color: #ff6d7a;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.button:hover {
+    transform: scale(1.1);
+    background-color: #ff4c5d;
+  }
+.contactpic{
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    max-width: 500px;
+}
+.contact h1{
+    position: absolute;
+    display: inline;
+    margin: 0;
+    font-size: 150px;
+    letter-spacing: 20px;
+    color: rgba(214, 93, 133, 0.132);
+    left: 150px;
+    top: 150px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.contact_container{
+    position: absolute;
+    margin: 0;
+    padding: 5px;
+    display: inline;
+    border: 2px solid rgba(214, 93, 133, 0.312) ;
+    left: 600px;
+    bottom: 10px;
+}
+.contact_container h2{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family: "Sour Gummy", sans-serif;    white-space: pre;
+    bottom: 50px;
+}
+form {
+    box-sizing: border-box;
+    /* text-align: center; */
+    font-size: larger;
+    font-family: "Sour Gummy", sans-serif;
+    text-shadow: 0 0 3px rgb(184, 94, 124);
+
+}
+.donate-here{
+text-align: center; 
+text-decoration-line: underline;
+  text-decoration-color:  rgb(184, 94, 124);
+  text-shadow: 0 0 3px rgb(184, 94, 124);
+}
+.don{
+
+    border-color:rgb(245, 177, 200) ;
+    background-color: rgb(252, 190, 214);
+    padding: 10px;
+    margin: auto;
+    border-width: 900px; 
+    width: 35%;
+    border-radius: 20% ;
+    
+}
+.don label {
+    width: 30%; 
+    display: inline-block;
+    text-align: end;
+    
+}
+.don input{
+    width: 65%;
+}
+.don h4 {
+    text-align: center;
+}
+.don-btn{
+    margin: auto;
+    display: block;
+}
+
+input {
+
+    width: 50%; 
+    padding: 6px;
+    margin: 2px;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+}
+
+input[type=radio]{
+margin: auto;
+padding:auto;
+width: auto;
+}
+
+
+.payment-method{
+    text-shadow: 0 0 3px rgb(184, 94, 124);
+}
